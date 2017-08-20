@@ -1,0 +1,182 @@
+﻿
+@media only screen and (max-width: 1280px) {
+
+	ul, #logo, #portofolio {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	}
+	
+	#footer .right {
+	width: 80%;
+	margin-right: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    
+    ul {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: nowrap;
+        
+    }
+    ul li {
+	float: none;
+	}
+	
+	#nav {
+	text-align: center;
+	}
+    #logo {
+	width: 100%;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	}
+	#content {
+	margin-top: 3.5%;
+	}
+    #portofolio {
+	width: 102%;
+	margin: auto;
+	}
+	
+	#footer {
+	text-align: center;
+}
+	#footer .right {
+	float: none;
+	width: 100%;
+	text-align:center;
+	margin-right: 0;
+	}
+	
+    
+    
+}
+
+@media only screen and (max-width: 500px) {
+	
+	ul {
+	font-size: 16px;
+	}
+	
+	#header {
+	height: 80px;
+	}
+	#logo {
+	font-size: 60px;
+	height: 50px;
+	margin: 20px auto 10px auto;
+
+	}
+	
+	.l75, .l66, .l33, .l50, .l25, .l100 {
+	min-width: 99%;
+	padding-bottom:  56.25%; 
+
+	
+	}
+
+	.p75, .p66, .p33, .p50, .p25, .p100 {
+	width: 99%;
+	padding-bottom:  177.77%;	
+	margin-right: 0%;
+	
+	}
+
+	.p33 {
+	padding-bottom: 100%;
+	/*background-size: contain;*/
+	background-position: top center;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+	#header {
+	height: 75px;
+	}
+	#logo {
+	font-size: 56px;
+	height: 50px;
+	margin: 20px auto 10px auto;
+
+
+	.p75, .p66, .p33, .p50, .p25, .p100 {
+	width: 99%;
+	padding-bottom:  177.77%;	
+	margin-right: 0%;
+	
+	}
+
+	.p33 {
+	padding-bottom: 120%;
+	/*background-size: contain;*/
+	background-position: top center;
+	}
+}
+
+
+@media only screen and (max-width: 350px) {
+
+	ul, #footer, #footer a {
+	font-size: 12px;
+	}
+	
+	#header {
+	height: 65px;
+	}
+	#logo {
+	font-size: 48px;
+	height: 50px;
+	margin: 20px auto 10px auto;
+
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+	ul, #footer, #footer a {
+	font-size: 10px;
+	}
+
+
+	#header {
+	height: 60px;
+	}
+	#logo {
+	font-size: 42px;
+	height: 50px;
+	margin: 20px auto 10px auto;
+
+	}
+
+	
+	
+}

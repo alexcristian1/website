@@ -1,0 +1,402 @@
+﻿
+* {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+/*wrapper*/
+body {
+	/*background: black;*/
+	
+	
+	/*background: rgba(153,153,153,1);*/
+/*background: rgba(153,153,153,1);
+background: -moz-linear-gradient(45deg, rgba(153,153,153,1) 0%, rgba(56,56,56,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(153,153,153,1)), color-stop(100%, rgba(56,56,56,1)));
+background: -webkit-linear-gradient(45deg, rgba(153,153,153,1) 0%, rgba(56,56,56,1) 100%);
+background: -o-linear-gradient(45deg, rgba(153,153,153,1) 0%, rgba(56,56,56,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(153,153,153,1) 0%, rgba(56,56,56,1) 100%);
+background: linear-gradient(45deg, rgba(153,153,153,1) 0%, rgba(56,56,56,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#383838', GradientType=1 );*/
+	
+	background-image:url('https://image.ibb.co/j4SGNF/20170723_203645_interesting.jpg');
+	
+	background-attachment:fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;	
+	
+}
+
+#wrapper {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+	
+	
+/*horizontal nav and ul, li, a styling */
+#header {
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);
+	height: 100px;
+	position: relative;
+	margin-bottom: -2.6%;
+
+}
+
+#logo {
+	font-family: Oswald, "Code Light";
+	text-transform: uppercase;
+	font-size: 72px;
+	text-align: left;
+	width: 60%; 
+	position: relative;
+	white-space: nowrap;
+	
+	
+	margin: 25px 20% 20px 19.85% ;
+	
+	/*before was 50px*/
+	height: 50px;
+	color: white;
+	position: relative;
+	z-index: 2;
+	text-shadow: 2px 1px 4px rgba(0, 0, 0, 1);
+	
+}
+#logo a {
+	color: white;
+	text-decoration: none;
+	
+	
+}
+#nav {
+	width: 100%;
+	/*height: 100px;*/
+	margin: auto;
+	/*margin-top: 100px;*/
+	
+	text-align: left;
+	/*border-top: 0.5px solid #CCCCCC;*/
+	position: fixed;
+	background: black;
+	/*border-bottom: 0.5px solid #CCCCCC;*/
+	top: 0;
+	left: 0;
+	right:0;
+	z-index: 3;
+	color: white;
+	background-color: black;
+	
+}
+
+.right {
+	width: 60%;
+	float: right;
+	margin-right: 20%;
+	text-align: right;
+}
+
+.left {
+	width: 60%;
+	float: left;
+	margin-left: 20%;
+	text-align: left;
+}
+.center {
+	width: 60%;
+	text-align: center;
+	float: left;
+	margin: 0px 20%;
+}
+
+ul {
+	width: 60%;
+	text-align: left;
+	margin-left: 20%;
+	height: 50px;
+	list-style: none;
+	display: inline;
+	font-size: 20px;
+	font-family: Oswald, "Code Light";
+	text-transform: uppercase;
+	position: relative;
+	
+}
+
+ul li {
+	/*float: left;*/
+	text-decoration: none;
+	padding: 5px 10px;
+	display: inline-block;
+	
+	/*border: 0.5px solid silver;
+	border-bottom: 0px;*/
+
+}
+ul li:first-child {
+	margin-left: -9px;
+}
+ul li a {
+	text-decoration: none;
+	color: gray;
+}
+
+ul:hover li {
+	filter: blur(1px);
+	transition: all 0.5s ease-in-out;
+}
+ul li:hover {
+	filter: blur(0px);
+	
+}
+
+.current {
+	color: #DD6F00;
+	
+}
+
+.search {
+	float: right;
+	margin-right: 20.5%;
+	margin-top: 12px;
+	display: inline-block;
+	position: relative;
+	height: 17px;
+	width: 10%;
+}
+
+
+
+
+
+
+
+
+/*#content:before {
+	content: " ";
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-image:url('31.jpg');
+	
+	background-attachment:fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	overflow: auto;
+	z-index: -1;
+}*/
+
+
+#content {
+	width: 100%;
+	height: auto;
+	position: relative;
+	
+	z-index: 2;
+	/*background-image:url('31.jpg');
+	
+	background-attachment:fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	overflow: auto;*/
+	margin-top: 3.25%;
+
+}
+
+/*#background {
+	background-image:url('31.jpg');
+	background-attachment:fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center;
+	overflow: auto;
+	
+	position: fixed;
+	width: 100%;
+	height: 84.85%;
+	margin-top: -0.5%;
+	bottom: 0;
+	
+	z-index: 1;
+	
+
+	
+}*/
+
+#portofolio {
+	width: 60%;
+	position: relative;
+	background-color: black;
+	
+	margin-top: 0.5%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	z-index: 2;
+}
+
+
+.image {
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position:center;
+	
+	position: relative;
+	
+	margin-bottom: 1%;
+	margin-right: 1%;
+	box-sizing: border-box;
+	
+	transition: 0.5s all ease;
+	
+	/*-webkit-box-shadow: 10px 10px 58px -20px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 58px -20px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 58px -20px rgba(0,0,0,0.75);*/
+	
+	float: left;
+
+}
+
+#portofolio:hover .image{
+	/*filter: grayscale(1) blur(4px);*/
+	transition: all 0.5s ease;
+}
+#portofolio .image:hover {
+	-webkit-box-shadow: 10px 10px 58px -20px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 58px -20px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 58px -20px rgba(0,0,0,0.75);
+	
+	/*filter: grayscale(0) blur(0px);*/
+}
+/*portrait */
+
+.p100 {
+	width: 99%;
+	padding-bottom:  177.77%;	
+	margin-right: 0%;
+
+}
+.p75 {
+	width: 74%;
+	padding-bottom:  133.33%;	
+
+}
+.p66 {
+	width: 66%;
+	padding-bottom:  18.75%;	
+
+}
+
+
+.p50 {
+	width: 49%;
+	padding-bottom:  86.4%;	
+
+}
+.p33 {
+	width: 33%;
+	padding-bottom:  37.5%;	
+
+}
+
+.p25 {
+	width: 24%;
+	padding-bottom:  42.1%;	
+
+}
+
+
+/*landscape */
+
+
+.l75 {
+	width: 74%;
+	padding-bottom:  42.1875%; 
+}
+.l66 {
+	width: 65%;
+	padding-bottom:  37.5%; 
+}
+
+.l33 {
+	width: 32.3%;
+	padding-bottom:  18.75%; 
+}
+
+.l50 {
+	width: 49%;
+	padding-bottom:  28.125%; 
+}
+
+
+.l25 {
+	width: 24%;
+	padding-bottom:  14.0625%; 
+}
+.l100 {
+	min-width: 99%;
+	padding-bottom:  56.25%; 
+	
+}
+
+
+.p75, .p66, .p33, .p50, .p25, .p100, .l75, .l66, .l33, .l50, .l25, .l100 {
+	/*background-attachment: fixed;*/
+}
+
+/*horizontal box and page centering within it*/
+.hr {
+	width: 100%;
+	background-color: aqua;
+	height: 250px;
+	
+	position: relative;
+	float: left;
+}
+
+#footer {
+	width: 100%;
+	min-height: 30px;
+	background-color: black;
+	/*border-top: 0.5px solid #CCCCCC;*/
+	font-family: Oswald, "Code Light";
+	font-size:12px;
+	padding-top: 9px;
+	color: white;
+	z-index: 1;
+	position: relative;
+	float: left;
+	
+
+}
+
+#footer .right {
+	margin-right: 20.6%;
+	width: auto;
+
+}
+
+#footer .right a {
+	
+	font-size: 12px;
+	text-decoration: none;
+	color: #DD6F00;
+	margin-right: 10px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+#footer .right a:hover {
+	color: white;
+	
+}
+
